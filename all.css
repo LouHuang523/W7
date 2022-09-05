@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family:
+        'SF Pro Text',
+        'Microsoft JhengHei',
+        sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title-size {
+    font-size: 80px;
+    margin-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid black;
+}
+
+.image {
+    margin: 48px 0px;
+}
+
+.h2-size {
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+    font-weight: bold
+}
+
+.span-size {
+    font-weight: bold;
+    font-size: 24px;
+    color: #A00404;
+    margin-left: 16px;
+
+
+}
+
+.profile ul {
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.profile li {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.education ul {
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.education li {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.skill {
+    background-color: #415165;
+    text-align: center;
+    margin-bottom: 64px;
+
+
+}
+
+.skill-title {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-h2-size {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    width: 996px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 24px;
+}
+
+.skill-span-size {
+    font-size: 24px;
+    color: white;
+    margin-left: 16px;
+}
+
+.skill ul {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    display: inline-block;
+}
+
+.skill li {
+    font-size: 24px;
+    border-left: 1px solid #96A9C4;
+    padding-left: 23px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.work ul {
+    margin-top: 16px;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-bottom: 80px;
+}
+
+.work-h3-size {
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.work-p-size {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+.work-p-size-2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #415165;
+    text-align: center;
+
+
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-h2-size {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    width: 1200px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 24px;
+}
+
+.footer-span-size {
+    font-size: 24px;
+    color: white;
+    margin-left: 16px;
+}
+
+.footer ul {
+    margin-top: 24px;
+
+    color: white;
+    display: inline-block;
+}
+
+.footer li {
+    font-size: 24px;
+    padding-left: 23px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.network img {
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+
+
+}
